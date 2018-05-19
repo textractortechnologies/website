@@ -2831,7 +2831,8 @@ img{
 
 .footer-style-three .footer-upper{
 	position:relative;
-	padding:120px 0px 90px;
+	padding:50px 0px 0px;
+	/*padding:120px 0px 90px;*/
 }
 
 .footer-style-three .footer-column{
@@ -2996,7 +2997,8 @@ img{
 
 .footer-style-three .footer-bottom{
 	position:relative;
-	padding:35px 0px 25px;
+	padding:0px 0px 25px;
+	/*padding:35px 0px 25px;*/
 }
 
 .footer-style-three .footer-bottom .bottom-column{
@@ -4080,4 +4082,8 @@ img{
 	position:relative;
 	min-width:180px;
 	text-transform:uppercase;
+}
+
+.bottom-nav-email-link {
+	margin-right: 100px;
 }
