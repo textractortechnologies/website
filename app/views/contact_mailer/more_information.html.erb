@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>
+    	<%= params[:message] %>
+    </p>
+    <p>
+      <%= params[:name] %> from <%= params[:company_name] %>
+      <br>
+      Email: <%= params[:email] %> 
+      <br>
+      <% if params[:phone].present? %>
+        Phone: <%= params[:phone] %>
+      <% end %>
+    </p>
+  </body>
+</html>

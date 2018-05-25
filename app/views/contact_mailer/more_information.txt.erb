@@ -1,0 +1,9 @@
+<%= params[:message] %>
+
+<%= params[:name] %> from <%= params[:company_name] %>
+
+<%= params[:name] %>
+Email: <%= params[:email] %> 
+<% if params[:phone].present? %>
+	Phone: <%= params[:phone] %>
+<% end %>
