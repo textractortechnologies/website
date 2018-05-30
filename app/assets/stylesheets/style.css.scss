@@ -558,6 +558,28 @@ img{
 	margin-left: 50px;
 }
 
+.main-header .main-box .logo-text-box a{
+	position:relative;
+	float:left;
+	left:0px;
+	padding:15px 0px;
+	color: #ffffff;
+	position: relative;
+    display: block;
+    line-height: 30px;
+    text-transform: capitalize;
+    letter-spacing: 0.01em;
+    opacity: 1;
+    padding: 25px 0px;
+    font-size: 27px;
+    font-weight: 400;
+    transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
 .main-header .main-box .logo-box .logo img{
 	display:inline-block;
 	max-width:100%;
