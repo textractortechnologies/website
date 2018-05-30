@@ -1,4 +1,4 @@
 class ApplicationMailer < ActionMailer::Base
-  default from: Figaro.env.email_username
+  default from: Rails.application.credentials.email_username
   layout 'mailer'
 end

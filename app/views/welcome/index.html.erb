@@ -1,11 +1,11 @@
 <div class="page-wrapper">
-  	
+
     <!-- Preloader -->
     <div class="preloader"></div>
- 	
+
     <!-- Main Header / Style Two-->
     <header class="main-header header-style-two">
-    	
+
         <!-- Main Box -->
     	<div class="main-box">
       	<div class="auto-container">
@@ -18,38 +18,38 @@
                 <div class="logo-text-box">
                     <a href="">Textractor Technologies</a>
                 </div>
-            
+
             <!--Nav Outer-->
             <div class="nav-outer clearfix">
               <!-- Main Menu -->
               <nav class="main-menu">
                 <div class="navbar-header">
-                    <!-- Toggle Button -->    	
+                    <!-- Toggle Button -->
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
                 </div>
-                  
+
                 <div class="navbar-collapse collapse scroll-nav clearfix">
                   <ul class="navigation clearfix">
                     <li class="dropdown current"><a href="#banner">Home</a></li>
                     <li><a href="#features">Products</a></li>
                     <!-- <li><a href="#features">Our Team</a></li> -->
-                    <li><a href="#contact">Contact Us</a></li>                                      
+                    <li><a href="#contact">Contact Us</a></li>
                    </ul>
                 </div>
               </nav>
               <!-- Main Menu End-->
-                
+
             </div>
             <!--Nav Outer End-->
-                
-        	</div>    
+
+        	</div>
         </div>
       </div>
-    
+
     </header>
     <!--End Main Header -->
 
@@ -64,14 +64,14 @@
                         <p>Our mission is to assist in unlocking information from cancer-related text in the electronic heal th record. The timely and accurate collection of these data is valuable for reporting to the governmentand could have many clinical, research and quality assurance applications.</p>
                     </div>
                 </div>
-                
+
                 <!--Image Column-->
                 <div class="image-column col-md-4 col-sm-12 col-xs-12">
                     <div class="inner">
                         <figure class="image"><img src=<%= image_path('resource/textractor-mission-image.png')%> alt=""></figure>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -87,7 +87,7 @@
                 <p>Case Finder is an online tool that suggests histologies and primary sites for uploaded pathology cases. Users can review the suggestions, accept them for import into Metriq, or discard them as not reportable. Reviewed cases can be exported into a file that will then be used to import the cases into Metriq as suspense cases.</p>
                 <a href="#contact" class="theme-btn btn-style-two">Request A Demo <span class="icon ti-arrow-circle-right"></span></a>
             </div>
-            
+
             <div class="sec-title-two alternate centered">
                 <h2>Key features</h2>
             </div>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!--Key Feature-->
             <div class="key-feature image-left">
                 <div class="row clearfix">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <!--Key Feature-->
             <div class="key-feature image-right">
                 <div class="row clearfix">
@@ -167,28 +167,28 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
-    
+
     <!--Contact Section-->
     <section class="contact-section" id="contact">
         <div class="auto-container">
             <div class="row clearfix">
-                
+
                 <!--Image Column-->
                 <div class="image-column col-md-6 col-sm-12 col-xs-12">
                     <div class="inner">
                         <!-- <figure class="image"><img src="images/resource/contact-image.png" alt=""></figure> -->
                     </div>
                 </div>
-                
+
                 <!--Form Column-->
                 <div class="form-column col-md-6 col-sm-12 col-xs-12">
                     <div class="sec-title">
                         <h2>Contact us</h2>
                     </div>
-                    
+
                     <!--Contact Form-->
                     <div class="default-form contact-form">
                         <%= form_tag contact_path do %>
@@ -202,7 +202,7 @@
                                 <input type="text" name="contact[name]" data-displayname="Contact name" placeholder="Contact name" required>
                                 <div class="input-bottom-line"></div>
                             </div>
-                              
+
                             <div class="form-group">
                                 <input type="email" name="contact[email]" data-displayname="Email" placeholder="Email" required>
                                 <div class="input-bottom-line"></div>
@@ -218,7 +218,7 @@
                                 <div class="input-bottom-line"></div>
                             </div>
 
-                            <%= recaptcha_tags %> 
+                            <%= recaptcha_tags %>
                             <% recaptcha_error = flash[:recaptcha_error] %>
                             <% if recaptcha_error %>
                               <div class="alert alert-danger">
@@ -227,7 +227,7 @@
                             <% end %>
                             <div class="form-group">
                                 <button type="submit" class="theme-btn btn-style-two" data-sending="Sending...">
-                                    Submit form 
+                                    Submit form
                                     <span class="icon ti-arrow-circle-right"></span>
                                 </button>
                             </div>
@@ -257,7 +257,7 @@
                                         <h4>Textractor Technologies</h4>
                                         <ul class="info">
                                             <li><a href="#">
-                                                <%= Figaro.env.email_username %>
+                                                <%= Rails.application.credentials.email_username %>
                                             </a></li>
                                             <!-- <li><a href="#">+65 2545 57581</a></li> -->
                                         </ul>
@@ -291,11 +291,11 @@
                                 </div>
                             </div> -->
                         </div>
-                    </div>                    
-                </div>  
+                    </div>
+                </div>
             </div>
         </div>
-        
+
         <!--Footer Bottom-->
         <div class="footer-bottom">
             <div class="auto-container">
@@ -315,9 +315,9 @@
                 </div>
             </div>
         </div>
-        
+
     </footer>
-    
+
 </div>
 <!--End pagewrapper-->
 
