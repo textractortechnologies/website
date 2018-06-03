@@ -1408,9 +1408,10 @@ img{
 .testimonials-section .outer-container:before{
 	content:'';
 	position:absolute;
-	right:-230px;
+//	right:-230px;
 	bottom:-160px;
-	width:660px;
+    right: -300px;
+   width:660px;
 	height:670px;
 	background:url(image_path('background/bg-shape-four.png')) center right no-repeat;	
 }
@@ -1428,7 +1429,8 @@ img{
 }
 
 .testimonials-carousel-one .text-column .text{
-	font-size:30px;
+//	font-size:30px;
+ 	font-size:25px;
 	font-weight:300;
 	line-height:1.4em;
 	color:#3b566e;
@@ -1532,7 +1534,7 @@ img{
 	top:0px;
 	width:50%;
 	height:100%;
-	background:url(image_path('background/bg-shape-five.png')) right center no-repeat;
+	background:url(image_path('background/bg-shape-fifteen.png')) right center no-repeat;
 		
 }
 
@@ -2614,6 +2616,9 @@ img{
 	text-transform:capitalize;	
 }
 
+.key-features-description {
+	padding: 10px 0;
+}
 /*** 
 
 ====================================================================

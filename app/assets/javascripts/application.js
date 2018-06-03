@@ -21,3 +21,4 @@
 //= require wow
 //= require validate
 //= require script
+//= require welcome
